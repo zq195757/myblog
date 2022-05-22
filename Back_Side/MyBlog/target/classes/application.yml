@@ -1,0 +1,13 @@
+server:
+  port: 7777
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 195757
+    url: jdbc:mysql:///personal_blog?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+# 定义mapper.xml路径
+mybatis-plus:
+  mapper-locations: ["classpath:dao/**/*.xml"]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zqweb.blog.dao.SiteInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.zqweb.blog.entity.SiteInfoEntity" id="siteInfoMap">
+        <result property="id" column="id"/>
+        <result property="articleNum" column="article_num"/>
+        <result property="bigsubjectNum" column="bigSubject_num"/>
+        <result property="labeNum" column="labe_num"/>
+        <result property="accessNum" column="access_num"/>
+        <result property="buildSiteTime" column="build_site_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>

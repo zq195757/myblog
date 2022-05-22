@@ -1,0 +1,34 @@
+.play-voice-size{
+    position: relative;
+    display: flex;
+    .voice-control-show{
+        position: absolute;
+        margin-right: .25rem;
+        display: flex;
+        width: 0;
+        height: .1875rem;
+        padding: 1.5625rem 1.25rem;
+        transition: width 1s ease;
+        background-color: rgb(41, 41, 43);    
+        .show-bar{
+            background-color: pink;
+            flex: 8;
+            .no-show-part{
+                display: inline-block;
+                width: 90%;
+                height: 100%;
+                background-color: white;
+                .control-ball-part{
+                    display: inline-block;
+                    width: .4375rem;
+                    height: .4375rem;
+                    border-radius: 50%;
+                    background-color: pink;
+                }
+            }
+            
+        }
+        
+
+    }
+}
